@@ -1,0 +1,15 @@
+class: Product
+table: products
+fields:
+  dealerId: int, relation(parent=dealers)
+  name: String
+  description: String
+  price: double
+  imageUrl: String
+  isVisible: bool
+  isApproved: bool
+  isActive: bool
+  isDeleted: bool
+  createdAt: DateTime
+  updatedAt: DateTime
+  deletedAt: DateTime

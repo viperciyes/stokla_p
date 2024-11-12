@@ -1,2 +1,34 @@
-example:
-  - hello:
+admin:
+  - createAdminUser:
+  - getAllAdmins:
+  - deleteAdmin:
+auth:
+dealer:
+  - getAllDealers:
+  - createDealer:
+  - deleteDealer:
+  - updateDealer:
+order:
+  - getOrdersForDealer:
+  - getOrderById:
+  - createOrder:
+  - updateOrderStatus:
+  - deleteOrder:
+product:
+  - getAllProducts:
+  - getProductsByDealerId:
+  - getProductById:
+  - createProduct:
+  - updateProduct:
+  - deleteProduct:
+shop:
+  - createShop:
+  - updateShop:
+  - deleteShop:
+  - getShopById:
+  - getAllShops:
+user:
+  - createUser:
+  - getUserById:
+  - updateUser:
+  - deleteUser:

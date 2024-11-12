@@ -1,0 +1,13 @@
+class: Shop
+table: shops
+fields:
+  userId: int, relation(parent=users)
+  businessName: String
+  cityId: int
+  districtId: int
+  phone: String
+  email: String
+  isActive: bool 
+  createdAt: DateTime
+  updatedAt: DateTime
+  deletedAt: DateTime

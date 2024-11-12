@@ -1,0 +1,10 @@
+
+class: Order
+table: orders
+fields:
+  shopId: int, relation(parent=shops)
+  dealerId: int, relation(parent=dealers)
+  items: List<OrderItem>
+  status: String
+  createdAt: DateTime
+  

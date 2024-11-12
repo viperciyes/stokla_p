@@ -1,0 +1,8 @@
+class: City
+table: cities
+fields:
+  name: String
+  country: String
+  countryCode: String
+  cityCode: int
+  

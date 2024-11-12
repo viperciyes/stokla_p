@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Flutter",
+        "type": "dart",
+        "request": "launch",
+        "program": "lib/main.dart"
+    },
+        {
+            "name": "stokla_client",
+            "cwd": "stokla_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stokla_flutter",
+            "cwd": "stokla_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stokla_flutter (profile mode)",
+            "cwd": "stokla_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "stokla_flutter (release mode)",
+            "cwd": "stokla_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "stokla_server",
+            "cwd": "stokla_server",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

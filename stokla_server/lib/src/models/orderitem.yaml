@@ -1,0 +1,8 @@
+
+class: OrderItem
+table: order_items
+fields:
+  orderId: int, relation(parent=orders)
+  productId: int, relation(parent=products)
+  quantity: int
+  price: double

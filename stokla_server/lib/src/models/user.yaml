@@ -1,0 +1,30 @@
+class: User
+table: users
+fields:
+  email: String
+  name: String
+  surname: String
+  businessname: String
+  businessphone: String
+  mobilephone: String
+  businessaddress: String
+  taxno: String
+  taxname: String 
+  mersisno: String
+  passwordHash: String
+  role: String
+  isApproved: bool
+  isCompleted: bool
+  serverpodUserId: int?
+  userInfo: module:auth:UserInfo?, relation 
+indexes:
+  serverpod_user_id_unique_idx:
+    fields: serverpodUserId
+    unique: true
+ 
+
+
+
+
+
+

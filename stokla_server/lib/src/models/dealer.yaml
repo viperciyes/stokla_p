@@ -1,0 +1,12 @@
+class: Dealer
+table: dealers
+fields:
+  userId: int, relation(parent=users) 
+  businessName: String
+  deliveryAreaIds: List<int>
+  isApproved: bool
+  isActive: bool
+  isDeleted: bool 
+  createdAt: DateTime
+  updatedAt: DateTime
+  deletedAt: DateTime

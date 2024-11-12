@@ -1,0 +1,5 @@
+class: District
+table: districts
+fields:
+  cityId: int, relation(parent=cities)
+  name: String
